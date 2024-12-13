@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import pytest
 import time
 from pages.homepage import HomePage
@@ -7,7 +6,6 @@ from pages.product import ProductPage
 
 
 def test_open_s6(browser):
-    options = Options()
     homepage = HomePage(browser)
     homepage.open()
     homepage.click_galaxy_s6()
