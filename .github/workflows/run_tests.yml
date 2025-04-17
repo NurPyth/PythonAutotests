@@ -1,4 +1,4 @@
-name: Rund autotests
+name: Run autotests
 on:
   workflow_dispatch:
     inputs:
